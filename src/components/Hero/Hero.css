@@ -1,0 +1,200 @@
+.heroMain {
+    background-color: #F5F7FA;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroLeft {
+    /* padding: 20px 20px 0 20px; */
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 0;
+    padding-bottom: 30px;
+    text-align: center;
+    order: 2;
+}
+
+.heroLeft h1 {
+    color: #4D4D4D;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.heroLeft h2 {
+    color: #4CAF4F;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.heroLeft p {
+    color: #717171;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* .heroLeft button {
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+    width: 140px;
+    height: 40px;
+    border-radius: 4px;
+} */
+
+.heroRight {
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 30px;
+    order: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.heroRight img {
+    width: 600px;
+    max-width: 300px;
+    /* height: auto; */
+}
+
+/* Tablet devices (600px and up) */
+@media (min-width: 600px) {
+    
+    
+    .heroLeft h1 {
+        font-size: 36px;
+        letter-spacing: 4px;
+    }
+    
+    .heroLeft h2 {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+    
+    .heroLeft p {
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+    
+    .heroRight img {
+        max-width: 400px;
+    }
+}
+
+/* Small laptops (900px and up) */
+@media (min-width: 900px) {
+    .heroMain {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    .heroLeft {
+        /* width: 45%; */
+        /* margin-top: 100px; */
+        /* margin-left: 50px; */
+        /* padding-left: 30px; */
+        text-align: left;
+        /* order: 1; */
+    }
+    
+    .heroLeft h1 {
+        font-size: 40px;
+        letter-spacing: 6px;
+    }
+    
+    .heroLeft h2 {
+        font-size: 38px;
+        letter-spacing: 6px;
+    }
+    
+    .heroLeft p {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    
+    /* .heroLeft button {
+        width: 150px;
+        height: 45px;
+        font-size: 17px;
+    }
+     */
+    .heroRight {
+        width: 45%;
+        order: 2;
+        /* justify-content: flex-start; */
+        margin-right: 100px;
+        
+    }
+    
+    .heroRight img {
+        max-width: 500px;
+    }
+}
+
+/* Large devices (1200px and up) */
+@media (min-width: 1200px) {
+    .heroLeft {
+        width: 50%;
+        
+    }
+    
+    .heroLeft h1 {
+        font-size: 50px;
+        letter-spacing: 8px;
+    }
+    
+    .heroLeft h2 {
+        font-size: 45px;
+        letter-spacing: 8px;
+    }
+    
+    .heroLeft p {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    
+    /* .heroLeft button {
+        width: 160px;
+        height: 45px;
+        font-size: 18px;
+    } */
+    
+    
+    
+    .heroRight img {
+        width: 600px;
+        /* max-width: none; */
+    }
+}
+
+/* Extra large devices (1600px and up) */
+@media (min-width: 1600px) {
+    .heroMain {
+        padding: 40px;
+    }
+    
+    .heroLeft {
+        margin-left: 200px;
+        /* padding-left: 80px; */
+    }
+    
+    .heroRight img {
+        width: 700px;
+    }
+}
