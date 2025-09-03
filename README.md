@@ -1,13 +1,3 @@
-  apiKey: "AIzaSyD4pQsmzfg9ChNp47_WTJHYZ7L2rBh9EaU",
-  authDomain: "react-firebase-7e0ab.firebaseapp.com",
-  projectId: "react-firebase-7e0ab",
-  storageBucket: "react-firebase-7e0ab.firebasestorage.app",
-  messagingSenderId: "175717838183",
-  appId: "1:175717838183:web:7250373bb001d026b413c2",
-  measurementId: "G-5JB8TSSM0H"
-};
-# React + Vite
-
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
